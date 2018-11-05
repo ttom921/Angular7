@@ -16,6 +16,9 @@ dotnet new webapi
 ```
 ng new static-app
 ```
-
+## 加入service
+```
+ng generate service bifurcation
+```
 ###### 參考
 * [Getting started](https://angular.io/guide/quickstart?utm_source=jeliknes&utm_medium=blog&utm_campaign=medium&WT.mc_id=medium-blog-jeliknes)
