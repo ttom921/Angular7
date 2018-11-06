@@ -20,5 +20,17 @@ ng new static-app
 ```
 ng generate service bifurcation
 ```
+# 建立合一的專案
+建立目錄ng-host,在目錄下
+```
+dotnet new angular
+```
+要升級到7，要先將原來的ClientApp,移除在下此命令
+```
+ng new ClientApp
+```
+[Creating an Angular 7 App with ASP.NET Core: A Step-by-Step Guide](https://www.telerik.com/blogs/creating-an-angular-7-app-with-aspnet-core-step-by-step-guide)
+
+
 ###### 參考
 * [Getting started](https://angular.io/guide/quickstart?utm_source=jeliknes&utm_medium=blog&utm_campaign=medium&WT.mc_id=medium-blog-jeliknes)
