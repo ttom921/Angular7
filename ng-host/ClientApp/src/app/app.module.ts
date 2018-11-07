@@ -1,13 +1,16 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { AppComponent } from './app.component';
+import { OperationModule } from './operation/operation.module';
+import { CustomMaterialModule } from './custom-material.module';
 import { Page1Component } from './page1/page1.component';
 import { Page2Component } from './page2/page2.component';
 import { Page3Component } from './page3/page3.component';
 import { Page404Component } from './page404/page404.component';
-import { OperationModule } from './operation/operation.module';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +23,9 @@ import { OperationModule } from './operation/operation.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    OperationModule
+    BrowserAnimationsModule,
+    OperationModule,
+    CustomMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
