@@ -8,11 +8,21 @@ import { ToDoListComponent } from './to-do-list/to-do-list.component';
 import { FileComponent } from './file/file.component';
 import { LeaveComponent } from './leave/leave.component';
 import { ReimburseComponent } from './reimburse/reimburse.component';
+import { EmployeeRoutingModule } from './employee-routing.module';
 
 @NgModule({
-  declarations: [CalendarComponent, AddressBookComponent, LogbookComponent, ToDoListComponent, FileComponent, LeaveComponent, ReimburseComponent],
+  declarations: [
+    CalendarComponent,
+    AddressBookComponent,
+    LogbookComponent,
+    ToDoListComponent,
+    FileComponent,
+    LeaveComponent,
+    ReimburseComponent
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    EmployeeRoutingModule
   ]
 })
 export class EmployeeModule { }

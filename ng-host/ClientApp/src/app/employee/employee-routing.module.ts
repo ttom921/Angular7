@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+
 import { AddressBookComponent } from './address-book/address-book.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { FileComponent } from './file/file.component';
@@ -19,4 +20,8 @@ const routes: Routes = [
   { path: 'to-do-list', component: ToDoListComponent }
 ];
 
-export const employeeRouter = routes;
+@NgModule({
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule]
+})
+export class EmployeeRoutingModule { }

@@ -6,7 +6,6 @@ import { HomeComponent } from './home.component';
 import { HeaderComponent } from './header/header.component';
 import { AsideComponent } from './aside/aside.component';
 import { CustomMaterialModule } from '../custom-material.module';
-import { EmployeeModule} from '../employee/employee.module'
 
 @NgModule({
   declarations: [HomeComponent, HeaderComponent, AsideComponent],
@@ -14,7 +13,6 @@ import { EmployeeModule} from '../employee/employee.module'
     CommonModule,
     HomeRoutingModule,
     CustomMaterialModule,
-    EmployeeModule
   ]
 })
 export class HomeModule { }
