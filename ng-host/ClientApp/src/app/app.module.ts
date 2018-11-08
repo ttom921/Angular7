@@ -29,7 +29,8 @@ import { Page404Component } from './page404/page404.component';
     OperationModule,
     CustomMaterialModule,
     FlexLayoutModule,
-    HomeModule
+    HomeModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
