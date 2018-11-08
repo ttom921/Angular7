@@ -6,9 +6,16 @@ import { HomeComponent } from './home.component';
 import { HeaderComponent } from './header/header.component';
 import { AsideComponent } from './aside/aside.component';
 import { CustomMaterialModule } from '../custom-material.module';
+import { CalendarComponent } from './calendar/calendar.component';
+import { AddressBookComponent } from './address-book/address-book.component';
+import { LogbookComponent } from './logbook/logbook.component';
+import { ToDoListComponent } from './to-do-list/to-do-list.component';
+import { FileComponent } from './file/file.component';
+import { LeaveComponent } from './leave/leave.component';
+import { ReimburseComponent } from './reimburse/reimburse.component';
 
 @NgModule({
-  declarations: [HomeComponent, HeaderComponent, AsideComponent],
+  declarations: [HomeComponent, HeaderComponent, AsideComponent, CalendarComponent, AddressBookComponent, LogbookComponent, ToDoListComponent, FileComponent, LeaveComponent, ReimburseComponent],
   imports: [
     CommonModule,
     HomeRoutingModule,
