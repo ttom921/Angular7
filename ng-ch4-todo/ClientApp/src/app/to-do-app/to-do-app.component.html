@@ -1,0 +1,8 @@
+<h1>Hello {{name}}</h1>
+<p>
+  Add a new todo:
+  <app-inputbox inputPlaceholder="new todo..." buttonLabel="add" (inputText)="addTodo($event)"> </app-inputbox>
+  
+</p>
+<p>Here's the list of pending todo items:</p>
+<app-todo-list [todos]="todos" (toggle)="toggleCompletion($event)"></app-todo-list>
